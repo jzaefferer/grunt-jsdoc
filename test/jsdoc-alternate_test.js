@@ -1,6 +1,6 @@
 var testCase = require('./task');
 testCase.setUp = function(done){
-    this.destination = 'doc/basic';
+    this.destination = 'doc/alternate';
     this.expectedFiles = [
         'index.html',
         'jsdoc-plugin.js.html',
@@ -11,4 +11,4 @@ testCase.setUp = function(done){
     done();
 };
 
-exports.JsDocBasicTest = testCase;
+exports.JsDocAlternateTest = testCase;

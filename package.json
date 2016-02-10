@@ -1,7 +1,7 @@
 {
   "name": "grunt-jsdoc",
   "description": "Integrates jsdoc3 generation into your Grunt build",
-  "version": "0.5.4",
+  "version": "1.1.0",
   "homepage": "https://github.com/krampstudio/grunt-jsdoc",
   "author": {
     "name": "Bertrand Chevrier",
@@ -22,32 +22,28 @@
   "bugs": {
     "url": "https://github.com/krampstudio/grunt-jsdoc/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/krampstudio/grunt-jsdoc/blob/master/LICENSE-MIT"
-    }
-  ],
+  "license": "MIT",
   "main": "Gruntfile.js",
   "bin": "bin/grunt-jsdoc",
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 0.10.0"
   },
   "scripts": {
     "test": "grunt test"
   },
   "devDependencies": {
-    "grunt": "~0.4.3",
-    "grunt-contrib-clean": "latest",
-    "grunt-contrib-nodeunit": "latest",
-    "grunt-contrib-jshint": "latest"
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.0",
+    "load-grunt-tasks": "^3.2.0",
+    "ink-docstrap": "^0.5.2"
   },
   "dependencies": {
-    "jsdoc": "~3.2.2",
-    "ink-docstrap": "~0.3.0-0"
+    "jsdoc": "^3.4.0"
   },
   "peerDependencies": {
-    "grunt": "~0.4.0"
+    "grunt": "*"
   },
   "keywords": [
     "gruntplugin",
